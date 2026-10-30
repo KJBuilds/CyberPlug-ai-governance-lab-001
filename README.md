@@ -5,7 +5,7 @@ Deploy AI Like an Enterprise: Governance, Risk & Security
 Scenario: Redwood Financial Services
 Focus: Enterprise AI Governance | Cybersecurity Risk Management | Data Protection | Security Architecture
 
-Lab Status: Foundational artifacts published; additional control design and validation in progress.
+Lab Status: Foundational artifacts published; proposed RBAC design, validation plan, and executive recommendations documented. Controls remain unimplemented/unvalidated; tests have not been run.
 
 ⸻
 
@@ -72,7 +72,7 @@ Documents enterprise AI governance decisions, including:
 * AI inference-risk investigations
 * Risk treatment and accountability
 
-View Governance Decision Register
+[View Governance Decision Register](CyberPlug_Lab001_AI_Risk_Governance_Decision_Register.xlsx)
 
 Artifact #2: AI Architecture & Trust Boundaries
 
@@ -88,7 +88,7 @@ Key design considerations include:
 * Emergency containment
 * Restoration authorization
 
-View Architecture Diagram
+[View Architecture Diagram](Redwood%20AI%20Architecture%20Trust%20Boundaries.png)
 
 Artifact #3: Data Classification & AI Handling Matrix
 
@@ -105,7 +105,7 @@ The artifact addresses:
 * Risk acceptance and exception management
 * Evidence retention
 
-View Data Classification Matrix
+[View Data Classification Matrix](CyberPlug_Lab001_Artifact3_Data_Classification_AI_Handling_Matrix.xlsx)
 
 ⸻
 
@@ -158,15 +158,15 @@ Business Communication
 
 ⸻
 
-Upcoming Lab Development
+Additional Design and Validation Artifacts
 
-Planned additions include:
+* [Artifact #4: Role-Based Access Control Design](docs/04-rbac-design.md)
+* [Artifact #5: Control Validation and Testing Scenarios](docs/05-control-validation-plan.md)
+* [Artifact #6: Lessons Learned and Executive Recommendations](docs/06-lessons-and-executive-recommendations.md)
 
-* Role-Based Access Control (RBAC) Design
-* Control Validation and Testing Scenarios
-* Lessons Learned and Executive Recommendations
+These documents are proposed designs and a test plan, not implemented controls or executed validation results. All test cases are Not run. They derive from this README; reconciliation with the original workbooks and architecture image remains required before adoption.
 
-These components remain under development and are not represented as completed or implemented controls.
+Next steps: reconcile all artifacts, assign named owners, implement controls in an isolated synthetic lab, execute and independently review the test evidence, and record the required restoration decision. The affected financial-analysis workflow remains suspended.
 
 ⸻
 
